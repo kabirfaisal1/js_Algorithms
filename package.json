@@ -1,0 +1,28 @@
+{
+  "name": "js_algorithms",
+  "version": "1.0.0",
+  "description": "JS: interview Algorithm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabirfaisal1/js_Algorithms.git"
+  },
+  "keywords": [
+    "pratice"
+  ],
+  "author": "Kabir Faisal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabirfaisal1/js_Algorithms/issues"
+  },
+  "homepage": "https://github.com/kabirfaisal1/js_Algorithms#readme",
+  "dependencies": {
+    "inquirer-npm-name": "^4.0.0",
+    "node": "^19.8.1",
+    "node-modules": "^1.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
