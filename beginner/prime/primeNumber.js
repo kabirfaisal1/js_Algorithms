@@ -1,34 +1,42 @@
 //* How would you verify a prime number?
-export function isPrime(n) {
+export function isPrime(num) {
     let isPrime = true
     let divisor = 2
-    if (n < 1) {
-        console.log(
-            `The augment value ${n} is less that one (1). code will not evaluate the number`
-        )
+    if (num < 1) {
         isPrime = false
     } else {
-        while (n > divisor) {
-            if (n % divisor === 0) {
+        while (num > divisor) {
+            if (num % divisor === 0) {
                 isPrime = false
-                break;
+                break
             }
             divisor++
-        }
-        if (isPrime) {
-            console.log(`The augment value ${n} is prime: ${isPrime}`)
-        } else {
-            console.log(`The augment value ${n} is prime: ${isPrime}`)
         }
         return isPrime
     }
 }
-//* How would you verify a prime number(s) inside an array?
-const array = [137, 120, 237, 0, 1, 4, 77, 78, "180", '190', 601,607,998,996]
+//* How would you verify a prime number inside an array?
+//TODO: remove this const after adding test
+const array = [137, 120, 237, 0, 1, 4, 77, 78, '180', '190', 601, 607, 998, 996]
 export function arrayPrime_Numbers(arr) {
     const arrPrime_List = arr.filter(isPrime)
-    console.log('checked array list for prime.', arrPrime_List)
+    return arrPrime_List
+}
+//* How could you find all prime factors of a verify number?
+export function priemFactors(num) {
+    let factors = [],
+        divisor = 2
+    while (num > 2) {
+        if (num % divisor === 0) {
+            factors.push(divisor)
+            num = num / divisor
+        } else {
+            divisor++
+        }
+    }
+    return factors
 }
 
-arrayPrime_Numbers(array);
-isPrime(80)
+console.log('checked array list for prime.', arrayPrime_Numbers(array))
+console.log(`given prime: ${isPrime(607)}`)
+console.log(priemFactors(608))
