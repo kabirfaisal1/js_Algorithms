@@ -1,6 +1,11 @@
 # Functions Explanation
-
-## How would you verify a prime number(s) ?
+# [Table of Contents](#table-of-contents)
+  * [How would you verify a prime number](#how-would-you-verify-a-prime-number)
+  * [How would you verify prime number inside an array](#how-would-you-verify-prime-number-inside-an-array)
+    * [Install Dependency](#install-dependency)
+  * [Directories](#directories)
+    * [Beginner](#beginner)
+## [How would you verify a prime number](#table-of-contents)
    `isPrime` will take an augment as `n` and evaluate `n` by divisor of two.
    -`let isPrime = true` flag is set to true
    - `let divisor = 2` number is set to be divided by 2.
@@ -17,7 +22,7 @@
 - `else` after exiting out of while loop and if the augment `n` return false then output will be 
     `The augment value ${n} is prime: ${isPrime}`
 
-## How would you verify a prime number(s) inside an array?
+## [How would you verify prime number inside an array](#table-of-contents)
 `arrayPrime_Numbers` will take an array augment  as `arr` and evaluate which value with in the array list is by prime.
 - `const arrPrime_List = arr.filter(isPrime)`
     - taking the augment `arr` and using `filter()` method crates a new array filled with elements that passes `isPrime` function.
