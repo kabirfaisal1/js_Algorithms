@@ -6,6 +6,8 @@ Practice algorithms interview questions to improve my coding skills.
     * [Install Dependency](#install-dependency)
   * [Directories](#directories)
     * [Beginner](#beginner)
+    * [Medium](#medium)
+    * [Hard](#hard)
 
 # [Git Repo](#table-of-contents)
 `https://github.com/kabirfaisal1/js_Algorithms.git`
@@ -24,3 +26,17 @@ This section will cover easy-level coding such as
 * Dealing with prime Number:
     [script file](beginner/prime/primeNumber.js) &
     [explanation](beginner/prime/readme.md) 
+*  [Two Sum](beginner/two_sum.js) &
+   [explanation](beginner/readme.md) 
+*  [Longest Common Prefix](beginner/longestCommonPrefix.js) &
+   [explanation](beginner/readme.md) 
+* [Remove Duplictes from sorted array](beginner/remove/removeElemnts.js) &
+   [explanation](beginner/readme.md) 
+## [Medium](#table-of-contents)
+* TBD:
+    [script file](TBD) &
+    [explanation](TBD) 
+## [Hard](#table-of-contents)
+* TBD:
+    [script file](TBD) &
+    [explanation](TBD) 
