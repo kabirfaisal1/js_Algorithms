@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/kabirfaisal1/js_Algorithms.git"
   },
+  "type":"module",
   "keywords": [
     "pratice"
   ],

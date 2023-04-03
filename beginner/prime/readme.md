@@ -6,7 +6,7 @@
    - `let divisor = 2` number is set to be divided by 2.
    - `if (n < 1)` checks to verify that given augment is not below 1. If it is then output will be `The augment value ${n} is less that one (1). code will not evaluate the number`. 
    -  `while (divisor < n)` looping through numbers to compare `divisor` and `n` until `divisor` is more than `n`
-        - `if (n % divisor === 0)` evaluate if the augment number by 2
+        - `if (n % divisor === 0)` evaluate if the augment `n` is divisible by `n` other than 1 and itself
             - if true it will set `let isPrime = true` to `let isPrime = false` and will `break` out of the loop. Because we want the code to make sure augment can't be divided other then itself.
             <br>
             ** HINT: `(%)` JavaScript check for even numbers by using the modulo operator.

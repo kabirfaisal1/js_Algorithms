@@ -1,35 +1,34 @@
 // How would you verify a prime number?
-function isPrime(n) {
+export function isPrime(n) {
     let isPrime = true
     let divisor = 2
     if (n < 1) {
         console.log(
             `The augment value ${n} is less that one (1). code will not evaluate the number`
         )
+        isPrime = false
     } else {
-        while (n > divisor ) {
+        while (n > divisor) {
             if (n % divisor === 0) {
                 isPrime = false
                 break;
             }
-            divisor++;
+            divisor++
         }
         if (isPrime) {
             console.log(`The augment value ${n} is prime: ${isPrime}`)
         } else {
             console.log(`The augment value ${n} is prime: ${isPrime}`)
         }
+        return isPrime
     }
 }
-isPrime(137)
-isPrime(120)
-isPrime(237)
-isPrime(0)
-isPrime(1)
-isPrime(4)
-isPrime("120")
-isPrime('137')
 
-isPrime(9801)
+const array = [137, 120, 237, 0, 1, 4, 77, 78, "180", '190', 601,607,998,996]
+export function arrayPrime_Numbers(arr) {
+    const arrPrime = arr.filter(isPrime)
+    console.log('checked array list for prime.', arrPrime)
+}
 
-
+arrayPrime_Numbers(array);
+isPrime(80)
