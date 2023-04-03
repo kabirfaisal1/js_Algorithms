@@ -1,4 +1,4 @@
-// How would you verify a prime number?
+//* How would you verify a prime number?
 export function isPrime(n) {
     let isPrime = true
     let divisor = 2
@@ -23,7 +23,7 @@ export function isPrime(n) {
         return isPrime
     }
 }
-
+//* How would you verify a prime number(s) inside an array?
 const array = [137, 120, 237, 0, 1, 4, 77, 78, "180", '190', 601,607,998,996]
 export function arrayPrime_Numbers(arr) {
     const arrPrime_List = arr.filter(isPrime)
