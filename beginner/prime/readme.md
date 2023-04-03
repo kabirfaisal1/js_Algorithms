@@ -18,4 +18,8 @@
     `The augment value ${n} is prime: ${isPrime}`
 
 ## How would you verify a prime number(s) inside an array?
+`arrayPrime_Numbers` will take an array augment  as `arr` and evaluate which value with in the array list is by prime.
+- `const arrPrime_List = arr.filter(isPrime)`
+    - taking the augment `arr` and using `filter()` method crates a new array filled with elements that passes `isPrime` function.
+
             

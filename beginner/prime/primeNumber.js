@@ -26,8 +26,8 @@ export function isPrime(n) {
 
 const array = [137, 120, 237, 0, 1, 4, 77, 78, "180", '190', 601,607,998,996]
 export function arrayPrime_Numbers(arr) {
-    const arrPrime = arr.filter(isPrime)
-    console.log('checked array list for prime.', arrPrime)
+    const arrPrime_List = arr.filter(isPrime)
+    console.log('checked array list for prime.', arrPrime_List)
 }
 
 arrayPrime_Numbers(array);
