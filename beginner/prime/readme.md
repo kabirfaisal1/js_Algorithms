@@ -2,7 +2,7 @@
 # [Table of Contents](#table-of-contents)
   * [How would you verify a prime number](#how-would-you-verify-a-prime-number)
   * [How would you verify prime number inside an array](#how-would-you-verify-prime-number-inside-an-array)
-  * [How could you find all prime factors of a verify number](#How-could-you-find-all-prime-factors-of-a-verify-number)
+  * [How could you find all prime factors of a verify number](#how-could-you-find-all-prime-factors-of-a-verify-number)
   
 # [How would you verify a prime number](#table-of-contents)
    <!-- [function](/beginner/prime/primeNumber.js?plain=1)  -->
