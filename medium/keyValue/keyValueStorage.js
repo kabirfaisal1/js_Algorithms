@@ -1,7 +1,7 @@
 // * How would you verify if existing data need to be updated 
 // * and add new data that are not part of the list?
 // * stored data
-let dbData = [
+let baseData = [
     {
         "id": "1234",
         "subject": "javaScript",
@@ -37,7 +37,7 @@ let incomeingData = [
     }, {
         "id": "123456",
         "subject": "sql",
-        "ide": "my SQL"
+        "ide": "mySQL"
     }, {
         "id": "10123456789",
         "subject": "automation tool",
@@ -51,15 +51,15 @@ let incomeingData = [
         "subject": "code repositories",
         "ide": "gitHub"
     }];
-export function modifyKeyStorage(storedArray, argArray) {
-    let storedArr = Array.from(storedArray);
-    const newItem = Array.from(argArray);
-    console.log("before checking same id ~~>", storedArr)
-    storedArr = storedArr.map(e => (e = newItem.find(a => a.id == e.id) || e, e));
-    // console.log("update stored data with same id ~~>", storedArr);
-    storedArr.push(...newItem.filter(compare => !storedArr.find(finalResutls => finalResutls === compare)))
-    console.log("new item stored data with same id ~~>", storedArr);
+export function modifyKeyStorage(currentBaseData, updateBaseData) {
+    // ! let storedArr = Array.from(currentBaseData); NOT using 
+    // ! const newItem = Array.from(updateBaseData);
+    console.log("current baseData ~~>", currentBaseData)
+    currentBaseData = currentBaseData.map(e => (e = updateBaseData.find(a => a.id == e.id) || e, e));
+    // console.log("updated data based on ID ~~>", storedArr);
+    currentBaseData.push(...updateBaseData.filter(compare => !currentBaseData.find(finalResutls => finalResutls === compare)))
+    console.log("new item stored to currentBaseData ~~>", currentBaseData);
 };
 
 
-arrayUpdate(dbData, incomeingData)
+modifyKeyStorage(baseData, incomeingData)
