@@ -24,11 +24,15 @@ function arrayReplace(storedArray, argArray){
     console.log("update with ~~>",storedArr)
 }
 
-let updateArray = {
+let updateArray = [{
     "id": "1234567",
     "subject": "cloud",
     "ide":"aws"
-}
+},{
+    "id": "123456",
+    "subject": "sql",
+    "ide":"mySQL"
+}]
 
 arrayReplace(testArray,updateArray)
 // module.exports = new 
