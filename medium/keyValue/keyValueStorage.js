@@ -1,5 +1,6 @@
 // * How would you verify if existing data need to be updated 
 // * and add new data that are not part of the list?
+// * stored data
 let dbData = [
     {
         "id": "1234",
@@ -27,6 +28,7 @@ let dbData = [
         "ide": "gitAction"
     }
 ];
+// * data need to be add and modify
 let incomeingData = [
     {
         "id": "1234567",
