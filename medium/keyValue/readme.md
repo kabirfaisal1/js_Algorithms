@@ -5,7 +5,7 @@
   * [How could you find all prime factors of a verify number](#how-could-you-find-all-prime-factors-of-a-verify-number) -->
   
 # [Verify if existing data and modify](#table-of-contents)
-   ## [function](/medium/keyValue/keyValueStorage.js) 
+   ## [Function: modifyKeyStorage()](/medium/keyValue/keyValueStorage.js) 
   
   
 

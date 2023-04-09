@@ -49,7 +49,7 @@ let incomeingData = [
         "subject": "code repositories",
         "ide": "gitHub"
     }];
-export function arrayUpdate(storedArray, argArray) {
+export function modifyKeyStorage(storedArray, argArray) {
     let storedArr = Array.from(storedArray);
     const newItem = Array.from(argArray);
     console.log("before checking same id ~~>", storedArr)
