@@ -1,16 +1,19 @@
-# js_Algorithms
+#  [js_Algorithms](https://github.com/kabirfaisal1/js_Algorithms.git) 
+
 Practice algorithms interview questions to improve my coding skills.
 # [Table of Contents](#table-of-contents)
-  * [Git Repo](#git-repo)
+  * [Git Repositories](#git-repositories)
   * [Dependency](#dependency)
     * [Install Dependency](#install-dependency)
   * [Directories](#directories)
     * [Beginner](#beginner)
     * [Medium](#medium)
     * [Hard](#hard)
+  * * [Supporting Documents](#supporting-documents)
 
-# [Git Repo](#table-of-contents)
-`https://github.com/kabirfaisal1/js_Algorithms.git`
+# [Git Repositories](#table-of-contents)
+[Solution Repositories](https://github.com/kabirfaisal1/js_Algorithms.git) 
+
 
 # [Dependency](#table-of-contents)
 - "inquirer-npm-name": "^4.0.0",
@@ -24,8 +27,8 @@ Practice algorithms interview questions to improve my coding skills.
 ## [Beginner](#table-of-contents)
 This section will cover easy-level coding such as
 * Dealing with prime Number:
-    [script file](beginner/prime/primeNumber.js) &
-    [explanation](beginner/prime/readme.md) 
+    [Function Script](beginner/prime/primeNumber.js) &
+    [Functions Explanation](beginner/prime/readme.md) 
 *  [Two Sum](beginner/two_sum.js) &
    [explanation](beginner/readme.md) 
 *  [Longest Common Prefix](beginner/longestCommonPrefix.js) &
@@ -33,10 +36,18 @@ This section will cover easy-level coding such as
 * [Remove Duplictes from sorted array](beginner/remove/removeElemnts.js) &
    [explanation](beginner/readme.md) 
 ## [Medium](#table-of-contents)
-* TBD:
-    [script file](TBD) &
-    [explanation](TBD) 
+
+* Array Key Value Storage:
+    [Function Script](medium/keyValue/keyValueStorage.js) &
+    [Functions Explanation](medium/keyValue/readme.md)  
 ## [Hard](#table-of-contents)
 * TBD:
     [script file](TBD) &
     [explanation](TBD) 
+
+# [Supporting Documents](#table-of-contents)
+* [JS Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) 
+* [JS Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 
+* [JS Find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) 
+
+
