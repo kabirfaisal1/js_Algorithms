@@ -29,7 +29,7 @@ let baseData = [
     }
 ];
 // * data need to be add and modify
-let incomeingData = [
+let incomingData = [
     {
         "id": "1234567",
         "subject": "cloud",
@@ -62,4 +62,4 @@ export function modifyKeyStorage(currentBaseData, updateBaseData) {
 };
 
 
-modifyKeyStorage(baseData, incomeingData)
+modifyKeyStorage(baseData, incomingData)
