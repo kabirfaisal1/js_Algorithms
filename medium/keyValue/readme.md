@@ -11,7 +11,7 @@
   - Following line of code `map`s `currentBaseData` with `updateBaseData` and `find` data index that have same `.id` and verify if any object in the block (index) for the `.id` has changed if it does that update the `currentBaseData` associated object for the `.id`. In this solution this step has to happen before adding new data that that exist to avoid duplicate object.
   <br>
   ```
-  currentBaseData = currentBaseData.map(e => (e = updateBaseData.find(a => a.id == e.id) || e, e));
+    currentBaseData = currentBaseData.map(e => (e = updateBaseData.find(a => a.id == e.id) || e, e));
    ```
   - Following line of code uses `filter` `updateBaseData` with `currentBaseData` and `find` data that don't exist and push the data to `currentBaseData`
    <br>
